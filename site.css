@@ -1,0 +1,25 @@
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1, h2, h3, h4 {
+    background-color: #e6de00; /* Set your background color */
+    color: #333329; /* Set your font color */
+    border: 1px solid #b3ae24;
+    padding: 10px;
+}
+
+a {
+    color: #807d33; /* Set your anchor tag color */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4c4b2e; /* Set your anchor tag hover color */
+}
+
+a:visited {
+    color: #b3ae24; /* Set your anchor tag visited color */
+}

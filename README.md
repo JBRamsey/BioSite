@@ -1,2 +1,4 @@
-# BioSite
- A Biographical Site
+# CSD 340 Web Development with HTML and CSS
+## Contributors
+* Joshua Ramsey
+* Darren Osier
