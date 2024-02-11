@@ -1,25 +1,152 @@
-#container {
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
+/*
+#e6de00 - Yellow
+#b3ae24 - Slightly Darker Yellow
+#807d33 - Darker Yellow
+#4c4b2e - Darkest Yellow
+#333329 - Black Yellow
+
+*/
+
+body {
+  font-family: Arial, sans-serif;
 }
 
-h1, h2, h3, h4 {
-    background-color: #e6de00; /* Set your background color */
-    color: #333329; /* Set your font color */
-    border: 1px solid #b3ae24;
-    padding: 10px;
+#container {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#container-about {
+	display: flex;
+  justify-content: space-between;
+  margin-top:50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+h1{
+  background-color: #e6de00;
+  color: black;
+  border: 2px solid #b3ae24;
+  padding: 10px;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+
+h2, h3, h4{
+  background-color: #e6de00;
+  color: black;
+  border: 2px solid #b3ae24;
+  padding: 10px;
+  border-radius: 8px;
 }
 
 a {
-    color: #807d33; /* Set your anchor tag color */
-    text-decoration: none;
+  color: #black;
+  text-decoration: none;
 }
 
 a:hover {
-    color: #4c4b2e; /* Set your anchor tag hover color */
+  color: white;
 }
 
 a:visited {
-    color: #b3ae24; /* Set your anchor tag visited color */
+  color: #4c4b2e;
+}
+
+nav {
+	background-color: #e6de00;
+  padding: 10px;
+  border: 1px solid #b3ae24;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.paragraph {
+    float: left;
+    width: 60%;
+    padding-right: 20px;
+  	clear: right;
+}
+
+.image-column {
+    float: right;
+    width: 30%; 
+    margin-left: 20px;
+    padding: 10px;
+    box-sizing: border-box; 
+}
+
+.image-column img {
+    display: block;
+    margin-bottom: 10px;
+    max-width: 100%;
+  	max-height: 20%;
+    height: auto;
+}
+
+.paragraph-about {
+    width: 60%;
+    padding-right: 20px;
+    float: left;
+}
+
+.image-column-about {
+    width: 30%;
+    float: left;
+  	padding: 10px;
+}
+
+.image-column-about img {
+    display: block;
+    margin-bottom: 10px;
+    max-width: 200px;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.container-hobbies{
+	display:flex;
+  justify-content: space-evenly;
+  height: 100vh;
+  margin-top: 10px;
+}
+
+.box {
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+  height: auto:
+    margin-bottom: 10px;
+}
+
+footer {
+    position: fixed;
+    background-color: #333329;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+footer p {
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white;
 }

@@ -10,20 +10,15 @@
     <link href="site.css" type="text/css" rel="stylesheet">
   </head>
   <body>
-    <div id="container"></div>
+    <div id="container-about"></div>
     <h1>Christopher Boldt</h1>
-    <h2>Main Page</h2>
+    <h2>About Me</h2>
     <nav> <a href="index.html">Main</a> <a href="about.html">About</a> <a href="hobbies.html">Hobbies</a>
     </nav>
-    <div class="paragraph">
-      <p>Your body of text goes here...</p>
+    <div class="image-column-about"> <img src="images/chris.jpg" alt="Image 1">
     </div>
-    <div class="image-column"> <img src="images/french.jpg" alt="Image 1"> <img
-
-        src="images/graduation.jpg" alt="Image 2"> <img src="images/code.jpg" alt="Image 3">
+    <div class="paragraph-about">
+      <p>Your body of text goes here... </p>
     </div>
-    <footer>
-      <p>© 2024 Ramsey</p>
-      <a href="index.html" class="footer-link">Back to Portal Page</a> </footer>
   </body>
 </html>
