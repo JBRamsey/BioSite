@@ -8,13 +8,14 @@
 */
 
 body {
+  background-color: #333329;
+  margin: 0;
+  padding: 0;
   font-family: Arial, sans-serif;
 }
 
-#container {
-  margin-top: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
+.container {
+	display: flex;
 }
 
 #container-about {
@@ -25,25 +26,29 @@ body {
   margin-right: 100px;
 }
 
-h1{
-  background-color: #e6de00;
-  color: black;
-  border: 2px solid #b3ae24;
+.header1{
+  background-color: #333329;
+  color: #e6de00;
+  height: 100px;
+  width: 100%;
+  text-align: left;
   padding: 10px;
-  border-radius: 8px;
+  box-sizing: border-box;
   text-transform: uppercase;
 }
 
-h2, h3, h4{
+.header2{
   background-color: #e6de00;
   color: black;
-  border: 2px solid #b3ae24;
+  height: 100px;
+  width: 100%;
+  text-align: left;
   padding: 10px;
-  border-radius: 8px;
+  box-sizing: border-box;
 }
 
 a {
-  color: #black;
+  color: #e6de00;
   text-decoration: none;
 }
 
@@ -52,38 +57,39 @@ a:hover {
 }
 
 a:visited {
-  color: #4c4b2e;
+  color: #black;
 }
 
 nav {
-	background-color: #e6de00;
+	background-color: #807d33;
   padding: 10px;
-  border: 1px solid #b3ae24;
-  margin-right: 10px;
-  border-radius: 8px;
+	box-sizing: border-box;
 }
 
-.paragraph {
-    float: left;
-    width: 60%;
-    padding-right: 20px;
-  	clear: right;
+ul {
+	list-style: none;
+  padding: 0;
+  margin:0;
 }
 
-.image-column {
-    float: right;
-    width: 30%; 
-    margin-left: 20px;
-    padding: 10px;
-    box-sizing: border-box; 
+li {
+	display: inline;
+  margin-right: 20px;
 }
 
-.image-column img {
-    display: block;
-    margin-bottom: 10px;
-    max-width: 100%;
-  	max-height: 20%;
-    height: auto;
+p {
+  color: white;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box
+  font-size: 5em;
+}
+.container-main {
+	display:flex;
+  justify-content: space-evenly;
+  height: 50vh;
+  width: 50%;
+  margin-top: 10px;
 }
 
 .paragraph-about {
@@ -120,19 +126,21 @@ nav {
 
 img {
 	max-width: 100%;
+  max-height: 100hv;
   height: auto:
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 footer {
     position: fixed;
-    background-color: #333329;
+    background-color: #807d33;
     left: 0;
     bottom: 0;
     width: 100%;
     display: flex;
     justify-content: space-between; 
     align-items: center; 
+  	padding: 10px;
 }
 
 footer p {
